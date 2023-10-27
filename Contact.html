@@ -3,54 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> YEy Store </title>
+    <a href="MainDashboard.html">BACK</a>
+    <style>
+         a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #31393d; 
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #8e9193; 
+            border-radius: 5px; 
+            font-weight: bold;
+            position: relative;
+            top: 690px;
+            padding-bottom: 20px;
+            
+            
+        }
+
+        a:hover {
+            background-color: #1d1f1e; 
+            border: 2px solid #454347;
+        }
+
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            outline: none;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #success-message {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border-radius: 3px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+    <title>Contact Us</title>
 </head>
 <body>
- 
-    <h2>COLORFUL ANG BUHAY NG IT</h1><p>MAY YEY STORE</p>
-    <b> Click here to main dashboard</b>
-    <a href="MainDashboard.html">BACK</a>
-     
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+        <div id="success-message" class="hidden">
+            <p>Your message has been sent successfully!</p>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const contactForm = document.getElementById("contact-form");
+            const successMessage = document.getElementById("success-message");
+            const submitButton = document.getElementById("submit-btn");
 
-    <style>
-     h1 {
-        text-decoration: none;
-        justify-content: center;
-        align-items: center;
-        margin: 10px;
-        font-family: Fantasy;
-        color: rgb(139, 16, 184);
-        font-size: 70px;
-       
-     }
+            contactForm.addEventListener("submit", function (e) {
+                e.preventDefault();
+                
 
-     a {
-         
-        text-decoration: none;
-        color: rgb(203, 27, 27);
-        margin: top;
-        border: 20px 0px  solid rgb(172, 29, 29);
-        box-shadow:  5px 5px rgba(10, 8, 8, 0.2);
-        width: 110px;
-        height: 90px;
-        border-radius: 15%;
-        background-color:rgrgb(1, 5, 1);
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 500px;
-        padding: 0pc 10px 20px;
-
-     }
-        
-    </style>
-    
-    
-
-
-    
+                contactForm.style.display = "none";
+                successMessage.style.display = "block";
+            });
+        });
+    </script>
 </body>
 </html>
-
-
-
-
