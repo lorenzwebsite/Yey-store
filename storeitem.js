@@ -413,7 +413,7 @@ const storeItem= [
     category : 'sports',
     rating : 4.8,
     price: 125,
-    img: 'img/Sports & Lifestyle/sl.jpg',
+    img: 'img/Sports & lifestyle/sl.jpg',
     quantity: 1
 },
 {
@@ -422,7 +422,7 @@ const storeItem= [
     category : 'sports',
     rating : 4.9,
     price: 20,
-    img: 'img/Sports & Lifestyle/sl1.jpg',
+    img: 'img/Sports & lifestyle/sl1.jpg',
     quantity: 1
 },
 {
@@ -431,7 +431,7 @@ const storeItem= [
     category : 'sports',
     rating : 4.9,
     price: 70,
-    img: 'img/Sports & Lifestyle/sl2.jpg',
+    img: 'img/Sports & lifestyle/sl2.jpg',
     quantity: 1
 },
 {
@@ -440,7 +440,7 @@ const storeItem= [
     category : 'sports',
     rating : 4.9,
     price: 20,
-    img: 'img/Sports & Lifestyle/sl3.jpg',
+    img: 'img/Sports & lifestyle/sl3.jpg',
     quantity: 1
 },
 {
@@ -449,7 +449,7 @@ const storeItem= [
     category : 'sports',
     rating : 4.7,
     price: 7,
-    img: 'img/Sports & Lifestyle/sl4.jpg',
+    img: 'img/Sports & lifestyle/sl4.jpg',
     quantity: 1
 },
 {
@@ -458,7 +458,7 @@ const storeItem= [
     category : 'sports',
     rating : 4.7,
     price: 8,
-    img: 'img/Sports & Lifestyle/sl5.jpg',
+    img: 'img/Sports & lifestyle/sl5.jpg',
     quantity: 1
 },
 {
@@ -467,7 +467,7 @@ const storeItem= [
     category : 'sports',
     rating : 4.9,
     price: 70,
-    img: 'img/Sports & Lifestyle/sl6.jpg',
+    img: 'img/Sports & lifestyle/sl6.jpg',
     quantity: 1
 },
 {
@@ -476,7 +476,7 @@ const storeItem= [
     category : 'sports',
     rating : 4.9,
     price: 20,
-    img: 'img/Sports & Lifestyle/sl7.jpg',
+    img: 'img/Sports & lifestyle/sl7.jpg',
     quantity: 1
 },
 {
@@ -485,7 +485,7 @@ const storeItem= [
     category : 'sports',
     rating : 4.9,
     price: 8,
-    img: 'img/Sports & Lifestyle/sl8.jpg',
+    img: 'img/Sports & lifestyle/sl8.jpg',
     quantity: 1
 },
 
