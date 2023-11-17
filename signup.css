@@ -13,7 +13,7 @@
     align-items: center;
     background: #dde5f4;
     height: 100vh;
-    background-image: url(/logo/Bgsignup.jpg);
+    background-image: URL(./logo/Bgsignup.jpg);
     background-repeat: no- repeat;
     background-size: cover;
     background-position: center;
