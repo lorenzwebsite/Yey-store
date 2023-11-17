@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yey Store - Sign Up</title>
+    <!-- Include necessary stylesheets and scripts here -->
+    <link rel="icon" href="yey.jpg" sizes="16x16">
+    <link rel="stylesheet" href="./signup.css">
+   
+</head>
+
+<body>
+    <div class="signup-screen">
+        <!-- Your signup form content goes here -->
+        <div class="screen-1">
+            <img src="/logo/yey.jpg" alt="Circular Image">
+            <style>
+                img {
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 50%;
+                    border: 2px solid #fff;
+                }
+            </style>
+
+        <div class="signup-email">
+            <label for="signup-email">Email Address</label>
+            <div class="sec-2">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" name="signup-email" id="signup-email" required />
+            </div>
+        </div>
+
+
+        <div class="signup-password">
+            <label for="signup-password">Password</label>
+            <div class="sec-2">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input class="pas" type="password" name="signup-password" id="signup-password" required />
+                <ion-icon class="show-hide" name="eye-outline" id="eyeicon"></ion-icon>
+            </div>
+        </div>
+
+        <div class="confirm-password">
+            <label for="password">Confirm password</label>
+            <div class="sec-2">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input class="pas" type="password" name="confirm-password" id="confirm-password" required />
+                <ion-icon class="show-hide" name="eye-outline" id="eyeicon"></ion-icon>
+            </div>
+        </div>
+
+        <input type="submit" value="Sign Up" class="signup" onclick="signup()" />
+
+        <div class="footer">
+            <a href="login.html">Already have an account? Log In</a>
+            <a href="forgot_password.html">Forgot Password?</a>
+        </div>
+    </div>
+
+    <script src="./signup.js"></script>
+
+
+
+</body>
+
+</html>
